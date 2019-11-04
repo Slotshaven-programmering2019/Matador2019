@@ -11,7 +11,7 @@ På det følgende link kan du prøve spillet: [Spil nu!](https://www.Slotshaven-
 Pull requests er meget velkommende. Større ændringer kræver det at der bliver lavet et issue så vi kan diskutere hvad du vil ha ændret. Tak på forhånd :)
 
 ## Udarbejdet af
-[M. Hansen](https://github.com/zxstai\
+[M. Hansen](https://github.com/zxstai)\
 [Marinus](https://github.com/Bm2mhc)\
 [Nikolaj](https://github.com/bergman12)\
 [Hampus](https://github.com/xdHampus)\
