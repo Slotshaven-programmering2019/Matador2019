@@ -22,11 +22,11 @@ Pull requests er meget velkommende. Større ændringer kræver det at der bliver
 [Mia](https://github.com/miajensen)\
 [Natasja](https://github.com/NatasjaDamsbjerg)\
 [Benjamin N](https://github.com/NoxEpic)\
-[Benjamin T](https://github.com/TilføjDitNavnTestholm)\
+[Benjamin T](https://github.com/BenjaminTestholm)\
 [Marc](https://github.com/marc7355)\
 [William](https://github.com/try100try)\
 [Casper](https://github.com/caspersiig)\
-[Bjørg](https://github.com/TilføjDitNavnBjørg)\
+[Bjørg](https://github.com/bjoergcarla)\
 [Magnus](https://github.com/Melf12)\
 [Mads](https://github.com/TilFøjDitNavnMads)\
 [Sara](https://github.com/saratims123)
