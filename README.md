@@ -29,7 +29,7 @@ Pull requests er meget velkommende. Større ændringer kræver det at der bliver
 [Bjørg](https://github.com/TilføjDitNavnBjørg)\
 [Magnus](https://github.com/Melf12)\
 [Mads](https://github.com/TilFøjDitNavnMads)\
-[Sara](https://github.com/saratims123)\
+[Sara](https://github.com/saratims123)
 
 
 
