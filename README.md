@@ -6,6 +6,8 @@ Matador 2019 spillet er udviklet af eleverne i 3R på Slotshaven Gymnasium i et 
 
 På det følgende link kan du prøve spillet: [Spil nu!](https://slotshaven-programmering2019.github.io/Matador2019/)
 
+## Spilregler der skal implementeres
+http://spilregler.dk/matador/
 
 ## Contributing
 Pull requests er meget velkommende. Større ændringer kræver det at der bliver lavet et issue så vi kan diskutere hvad du vil ha ændret. Tak på forhånd :)
