@@ -9,4 +9,8 @@ var spillerantal = prompt("Hvor mange spillere");
 
 }
 
+// instacere hele programmet
 
+if(spillerUde == true){
+    bankerot();
+}
