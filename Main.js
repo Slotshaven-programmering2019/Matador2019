@@ -12,9 +12,6 @@ lavspillere(spillerantal);
 
 }
 
-if(spillerUde == true){
-    bankerot();
-}
 
 function lavspillere(antalspillere){
     if(spillerUde == true){
