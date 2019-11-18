@@ -9,6 +9,8 @@ På det følgende link kan du prøve spillet: [Spil nu!](https://slotshaven-prog
 ## Spilregler der skal implementeres
 http://spilregler.dk/matador/
 
+Altså, så vidt muligt, kopier et originalt Matadorspil.
+
 ## Contributing
 Pull requests er meget velkommende. Større ændringer kræver det at der bliver lavet et issue så vi kan diskutere hvad du vil ha ændret. Tak på forhånd :)
 
