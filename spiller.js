@@ -1,4 +1,4 @@
-class spiller {
+class Spiller {
 
     constructor(spillerNavn, position, ejendomme, penge, friKort) {
         this.spillerNavn = spillerNavn;
@@ -6,9 +6,26 @@ class spiller {
         this.ejendomme = ejendomme;
         this.penge = penge;
         this.friKort = friKort;
-    }}
-    move = function(position){
-        let terning = 3+Math.round(Math.random()*10)
-    
-     if(1===1) terning + position = position;
+        this.terningSlag = terningSlag;
+        this.huse = huse;
+        this.hoteller = hoteller;
+        
     };
+rykSpiller = function(position, terningSlag){
+
+    position = terningSlag + position;
+
+}
+
+
+    købEjendom = function(position){
+
+        if(penge > position.getParent().pris && position.getParent().ejer == bank){
+            
+            penge = penge-position.getparent().pris;
+            position.getParent().ejer = spillerNavn;
+
+
+        }
+
+    }};
