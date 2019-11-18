@@ -9,12 +9,38 @@ class Spiller {
         this.terningSlag = terningSlag;
         this.huse = huse;
         this.hoteller = hoteller;
-        
+        this.turStart = turStart;
+        this.spillerUde = spillerUde
     };
+
+    spillerUde = false;
+
+turStart(){
+    if(spillerNavn.vaerdi >=0){
+        spillerUde = true;
+        alert("Du er ude af spillet, fucking taber kælling")
+    }
+
+    kastTerning();
+
+    rykSpiller();
+
+    if(position == grund){
+        if(grundIkkeEjet){
+            alert("Vil du købe grunden?" + jaKnap + nejKnap)
+            jaKnap = createButton("Ja", jaTilKoeb);
+            nejKnap = createButton("nej", nejTilKoeb);
+            if(jaTilKoeb){
+                købEjendom();
+            }else if(nejTilKoeb){
+                naesteTur();
+            }
+        }
+    }
+}
+
 rykSpiller = function(position, terningSlag){
-
     position = terningSlag + position;
-
 }
 
 
@@ -28,4 +54,8 @@ rykSpiller = function(position, terningSlag){
 
         }
 
-    }};
+    }
+
+
+
+};
