@@ -24,8 +24,32 @@ rykSpiller = function(position, terningSlag){
             
             penge = penge-position.getparent().pris;
             position.getParent().ejer = spillerNavn;
-
-
         }
+           /* switch (key) {
+                case Proevlykken:
+                    
+                    break;
+                case 123:
 
-    }};
+                    break;
+
+                case 123:
+
+                    break;
+                
+                case 123:
+
+                    break;
+                
+                case 123:
+
+                    break;
+
+                case 123:
+
+                    break;
+
+                default:
+                    break;
+           */}
+        };
