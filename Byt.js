@@ -45,10 +45,10 @@ var nuvaerendeModtager;
 		var modtagerSideTable = document.createElement("table");
 
 
-		for (var i = 0; i < 40; i++) {
+		for (var i = 0; i < 40; i++) { //40 er sat til character limit.
 			nuværendePosition = position[i];
 
-			// A Grund cannot be bytd if any properties in its group have been improved.
+			// En grund kan ikke byttes hvis der er bygget på den
 			if (nuværendePosition.hus > 0 || nuværendePosition.groupNumber === 0) {
 				continue;
 			}
@@ -67,7 +67,7 @@ var nuvaerendeModtager;
 				continue;
 			}
 
-			// Offerød properties.
+			// Senders muligheder
 			if (nuværendePosition.ejer === sender.index) {
 				nuværnedeEjetFelter = senderSideTable.appendChild(document.createElement("tr"));
 				nuværnedeEjetFelter.onclick = tableListeVedKlik;
@@ -101,7 +101,7 @@ var nuvaerendeModtager;
 				}
 				nuvaernedeEjetFeltCelle.textContent = nuværendePosition.navn;
 
-			// Requested properties.
+			// Modtagers muligheder
 			} else if (nuværendePosition.ejer === modtager.index) {
 				nuværnedeEjetFelter = modtagerSideTable.appendChild(document.createElement("tr"));
 				nuværnedeEjetFelter.onclick = tableListeVedKlik;
