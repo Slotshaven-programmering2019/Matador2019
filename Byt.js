@@ -136,7 +136,7 @@ var nuvaerendeModtager;
 				nuvaernedeEjetFeltCelle.textContent = nuværendePosition.navn;
 			}
 		}
-
+			//hard coding 
 		if (sender.chanceFaengselKort) {
 			nuværnedeEjetFelter = senderSideTable.appendChild(document.createElement("tr"));
 			nuværnedeEjetFelter.onclick = tableListeVedKlik;
