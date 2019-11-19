@@ -488,13 +488,13 @@ var nuvaerendeModtager;
 			return false;
 		}
 
-		if (sender.human && !confirm(sender.navn + ", er du sikker på at bytte med " + modtager.navn + "?")) {
+		if (sender && !confirm(sender.navn + ", er du sikker på at bytte med " + modtager.navn + "?")) {
 			return false;
 		}
 
 		var tilbagefoertByt = new Byt(modtager, sender, -penge, tilbagefoertBytGrund, -bytObj.getChanceFaengselKort());
 
-		if (modtager.human) {
+		if (modtager) {
 
 			writeByt(tilbagefoertByt);
 
