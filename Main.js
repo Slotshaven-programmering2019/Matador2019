@@ -9,13 +9,11 @@ lavspillere(spillerantal);
 (? felt få spilleren til at trække kortet, anden spillers felt få spilleren til at betale,osv.osv.)*/
 //giv spilleren de muligheder personen har til sidst (trade,køb huse,køb hoteller)
 
-
 }
 
-
+// instacere hele programmet
 function lavspillere(antalspillere){
     if(spillerUde == true){
         bankerot();
     }
 }
-

@@ -2,12 +2,16 @@
 
 Matador 2019 spillet er udviklet af eleverne i 3R på Slotshaven Gymnasium i et programmeringsprojekt.
 
+Matador Spillet vil køre med et skin hvor alle områderne er lokaler, og huse/hoteller er stole.
+
 ## Demo
 
 På det følgende link kan du prøve spillet: [Spil nu!](https://slotshaven-programmering2019.github.io/Matador2019/)
 
 ## Spilregler der skal implementeres
 http://spilregler.dk/matador/
+
+Altså, så vidt muligt, kopier et originalt Matadorspil.
 
 ## Contributing
 Pull requests er meget velkommende. Større ændringer kræver det at der bliver lavet et issue så vi kan diskutere hvad du vil ha ændret. Tak på forhånd :)
