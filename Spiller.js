@@ -78,7 +78,7 @@ rykSpiller = function(position, terningSlag){
                 default:
                 
                     break;
-           */}
-        };
-    }
-};
+           }*/
+	}
+ };
+

@@ -9,8 +9,7 @@ class Property {
 
 
     price() {
-        
-        price = 
+         
         return Price;
     };
 
