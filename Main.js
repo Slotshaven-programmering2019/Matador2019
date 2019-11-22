@@ -1,5 +1,7 @@
 function main(){
 var spillerantal = prompt("Hvor mange spillere");
+document.getElementById("spilleplade").hidden = false;
+lavspillere(spillerantal);
 //lav spillerantal spillere
 //tegn alle tingende UI + Spillebræt + information omkring hvem der skal kaste først
 //få første spiller til at kaste
@@ -10,7 +12,8 @@ var spillerantal = prompt("Hvor mange spillere");
 }
 
 // instacere hele programmet
-
-if(spillerUde == true){
-    bankerot();
+function lavspillere(antalspillere){
+    if(spillerUde == true){
+        bankerot();
+    }
 }

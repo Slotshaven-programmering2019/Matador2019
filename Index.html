@@ -4,7 +4,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="Main.js"></script>
-    <script src="spiller.js"></script>
     <script src="Terninger.js"></script>
 	  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 	  <script src="Spiller.js"></sript>
@@ -14,8 +13,11 @@
 	<body>
 <h1>Velkommen til matador</h1>
 <button id="startknap">Start Matador</button>
+<img id="spilleplade" src="Spilleplade.png" height="1920" width="1080">
 <script>
-    document.getElementById("startknap").onclick = function(){
+    document.getElementById("spilleplade").hidden = true;
+    document.getElementById("startknap")
+    .onclick = function(){
         document.getElementById("startknap").remove();
         main();
     }
