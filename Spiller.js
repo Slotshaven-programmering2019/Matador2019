@@ -6,11 +6,11 @@ class Spiller {
         this.ejendomme = ejendomme;
         this.penge = penge;
         this.friKort = friKort;
-        this.terningSlag = terningSlag;
-        this.huse = huse;
-        this.hoteller = hoteller;
-        this.turStart = turStart;
-        this.spillerUde = spillerUde
+     //   this.terningSlag = terningSlag;
+     //   this.huse = huse;
+     //   this.hoteller = hoteller;
+     //   this.turStart = turStart;
+     //   this.spillerUde = spillerUde
     };
 
     spillerUde = false;

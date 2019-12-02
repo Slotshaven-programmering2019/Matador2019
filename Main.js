@@ -1,7 +1,22 @@
+function setup() {
+    
+}
+
 function main(){
 var spillerantal = prompt("Hvor mange spillere");
 document.getElementById("spilleplade").hidden = false;
-lavspillere(spillerantal);
+document.getElementById("textid").hidden = true;
+
+var startbeløb = 2000;
+var spillere = [];
+for (let i = 0; i < spillerantal; i++) {
+    spillere[i] = new Spiller("spiller"+i,1,0,startbeløb,0);
+    console.log(spillere[i]);
+}
+    
+
+
+
 //lav spillerantal spillere
 //tegn alle tingende UI + Spillebræt + information omkring hvem der skal kaste først
 //få første spiller til at kaste
@@ -11,9 +26,11 @@ lavspillere(spillerantal);
 
 }
 
+
+
 // instacere hele programmet
-function lavspillere(antalspillere){
-    if(spillerUde == true){
-        bankerot();
-    }
-}
+//function lavspillere(antalspillere){
+//    if(spillerUde == true){
+//        bankerot();
+//    }
+//}
