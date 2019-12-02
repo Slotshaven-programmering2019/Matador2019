@@ -31,7 +31,7 @@ turStart(spiller){
         }
     }
 
-    kastTerning();
+    kastTerning(Terninger.kast());
 
     rykSpiller = function(position, terningSlag){
         position = terningSlag + position;
