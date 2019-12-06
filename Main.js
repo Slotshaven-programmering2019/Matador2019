@@ -7,7 +7,7 @@ var spillerantal = prompt("Hvor mange spillere");
 document.getElementById("spilleplade").hidden = false;
 document.getElementById("textid").hidden = true;
 
-var startbeløb = 2000;
+var startbeløb = 30000;
 var spillere = [];
 for (let i = 0; i < spillerantal; i++) {
     spillere[i] = new Spiller("spiller"+i,1,0,startbeløb,0);
