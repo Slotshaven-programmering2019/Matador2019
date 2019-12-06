@@ -24,6 +24,7 @@ for (let i = 0; i < spillerantal; i++) {
 (? felt få spilleren til at trække kortet, anden spillers felt få spilleren til at betale,osv.osv.)*/
 //giv spilleren de muligheder personen har til sidst (trade,køb huse,køb hoteller)
 
+
 }
 
 
