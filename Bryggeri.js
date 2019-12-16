@@ -1,0 +1,3 @@
+class Bryggeri extends Ejendom{
+    
+}

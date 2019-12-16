@@ -1,0 +1,3 @@
+class Rederi extends Ejendom{
+    
+}
