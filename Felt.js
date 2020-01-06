@@ -1,5 +1,9 @@
 class Felt{
-    landetpaa(spiller){
+    constructor(klasse){
+        this.klasse = klasse
+       
+    }
+    landetpaa(){
 
     }
 }
