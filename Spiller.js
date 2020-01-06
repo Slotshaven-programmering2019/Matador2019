@@ -1,7 +1,7 @@
 class Spiller {
 
-    constructor(spillere, position, ejendomme, penge, friKort) {
-        this.spillere = spiller[1, 2, 3, 4];
+    constructor(position, ejendomme, penge, friKort) {
+        //this.spillere = spillere;
         this.position = position;
         this.ejendomme = ejendomme;
         this.penge = penge;
@@ -13,32 +13,18 @@ class Spiller {
      //   this.turStart = turStart;
      //   this.spillerUde = spillerUde
 
-    };
+    }
 
-    spillerUde = false;
+    turStart = function (){
+        var terningSlag = 7;//kastTerning(Terninger.kast());
+        this.rykSpiller(terningSlag, this.position);
+    }
 
-    turStart(spiller) {
-        if (spiller.vaerdi >= 0) {
-            spillerUde = true;
-            alert("Du er ude af spillet, fucking taber kælling")
-            if (spiller == [0]) {
-                remove.spiller[0]
-            } else if (spiller == [1]) {
-                remove.spiller[1]
-            } else if (spiller == [2]) {
-                remove.spiller[2]
-            } else if (spiller == [3]) {
-                remove.spiller[3]
-            }
-        }
-
-        kastTerning(Terninger.kast());
-
-        rykSpiller = function (position, terningSlag) {
-            position = terningSlag + position;
-        }
-
-        if (position == grund) {
+    rykSpiller = function (position, terningSlag) {
+            this.position = terningSlag + position;
+            document.getElementById("spilgang").innerHTML += (" slag = " + terningSlag +", ny pos = " + this.position);
+    }
+        /*if (position == grund) {
             if (grundIkkeEjet) {
                 alert("Vil du købe grunden?" + jaKnap + nejKnap)
                 jaKnap = createButton("Ja", jaTilKoeb);
@@ -92,8 +78,7 @@ class Spiller {
                     default:
                     
                         break;
-               }*/
-            }
-        }
-    }
-};
+            
+            }*/
+        
+}
