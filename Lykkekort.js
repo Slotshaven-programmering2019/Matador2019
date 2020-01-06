@@ -26,9 +26,9 @@ function gørnoget() {
         vælgkort = -1;
     }
     if (vælgkort == 3) {
-        alert("Du kom til at vælge danske bank: -10% af din nuværende formue hver runde de næste 3 runder");
+        alert("Du kom til at vælge danske bank: -10% af din nuværende formue");
         console.log(spiller.penge);
-        spiller.penge *= .8;
+        spiller.penge *= .9;
         console.log(spiller.penge);
         vælgkort = -1;
     }
