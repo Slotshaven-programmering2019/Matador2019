@@ -1,5 +1,5 @@
 // Bytte funktionerne:
-
+/*
 var nuvaerendeSender;
 var nuvaerendeModtager;
 
@@ -553,4 +553,5 @@ function Byt(sender, modtager, penge, grund, FaengselKort) {
 		return FaengselKort;
 	};
 }
+*/
 
