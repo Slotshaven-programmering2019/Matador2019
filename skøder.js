@@ -389,8 +389,8 @@ lokale62 = {
 
        innolab2 = {
         pris:  4000,
-        leje: 500,
-        leje: 1000,
+        leje0: 500,
+        leje1: 1000,
         leje2: 2000,
         leje3: 4000,
         pantsæt: 2000, 
@@ -399,8 +399,8 @@ lokale62 = {
     },
        kælderen = {
         pris:  4000,
-        leje: 500,
-        leje: 1000,
+        leje0: 500,
+        leje1: 1000,
         leje2: 2000,
         leje3: 4000,
         pantsæt: 2000, 
@@ -409,8 +409,8 @@ lokale62 = {
     },
     biografen = {
         pris:  4000,
-        leje: 500,
-        leje: 1000,
+        leje0: 500,
+        leje1: 1000,
         leje2: 2000,
         leje3: 4000,
         pantsæt: 2000, 
@@ -419,8 +419,8 @@ lokale62 = {
     },
     musik = {
         pris:  4000,
-        leje: 500,
-        leje: 1000,
+        leje0: 500,
+        leje1: 1000,
         leje2: 2000,
         leje3: 4000,
         pantsæt: 2000, 
