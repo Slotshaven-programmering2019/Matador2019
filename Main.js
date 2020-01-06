@@ -7,15 +7,30 @@ var spillerantal = prompt("Hvor mange spillere");
 document.getElementById("spilleplade").hidden = false;
 document.getElementById("textid").hidden = true;
 
-var startbeløb = 2000;
+var startbelob = 2000;
 var spillere = [];
+var spillerHarTur = 0; 
+var antalRunder = 0;
+var gameOver = false;
+
 for (let i = 0; i < spillerantal; i++) {
-    spillere[i] = new Spiller("spiller"+i,1,0,startbeløb,0);
+    spillere[i] = new Spiller(0,0,startbelob,0);
     console.log(spillere[i]);
 }
     
+while(!gameOver) {
+    document.getElementById("spilgang").innerHTML += ("Spiller " + spillerHarTur + " rykker " + "<br>" );
+    spillere[spillerHarTur].turStart();
+    spillerHarTur += 1;
+    if (spillerHarTur >= spillere.length) {
+        spillerHarTur = 0;
+        antalRunder += 1;
+        if (antalRunder > 10) gameOver = true;
+    }
 
+}
 
+document.getElementById("spilgang").innerHTML += ("Spillet er slut ");
 
 //lav spillerantal spillere
 //tegn alle tingende UI + Spillebræt + information omkring hvem der skal kaste først
