@@ -34,8 +34,9 @@ Pull requests er meget velkommende. Større ændringer kræver det at der bliver
 [Casper](https://github.com/caspersiig)\
 [Bjørg](https://github.com/bjoergcarla)\
 [Magnus](https://github.com/Melf12)\
-[Mads](https://github.com/TilFøjDitNavnMads)\
-[Sara](https://github.com/saratims123)
+[Mads](https://github.com/Mfknudsen)\
+[Sara](https://github.com/saratims123)\
+[Christoffer](https://github.com/KvistGod)
 
 
 
